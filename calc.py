@@ -1,17 +1,23 @@
+"""Module docstring."""
+
 # define function for addition
 def add(x, y):
+    """ docstring for add function"""
     return x + y
 
 # define function for subtraction
 def subtract(x, y):
+    """ docstring for subtract function"""
     return x - y
 
 # define function for multiplication
 def multiply(x, y):
+    """ docstring for multiply function"""
     return x * y
 
 # define function for division
 def divide(x, y):
+    """ docstring for divide function"""
     return x / y
 
 # take input from the user
@@ -39,3 +45,5 @@ elif choice == '4':
     print(num1,"/",num2,"=", divide(num1,num2))
 else:
     print("Invalid input")
+
+# test 2
