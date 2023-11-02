@@ -1,3 +1,5 @@
+"""Module docstring."""
+
 # define function for addition
 def add(x, y):
     """ docstring for add function"""
