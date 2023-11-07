@@ -1,14 +1,16 @@
 name: Run Python file
 
 on:
-
+  push:
+    branches:
+      - main
   pull_request:
     branches:
       - main
 
 jobs:
   build-and-analyze:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
     - name: Python Action
