@@ -1,3 +1,5 @@
+"""Module docstring."""
+
 # define function for addition
 def add(x, y):
     """ docstring for add function"""
@@ -44,4 +46,4 @@ elif choice == '4':
 else:
     print("Invalid input")
 
-# test 2
+# test****
