@@ -1,4 +1,4 @@
-name: my runner
+name: my_runner
 on:
   push:
     branches:
