@@ -1,6 +1,8 @@
 name: my runner
 on:
   push:
+    branches:
+      - main
 
 jobs:
   job1:
